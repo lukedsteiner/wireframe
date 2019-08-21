@@ -96,3 +96,16 @@ p {
     text-align: center;
     font-size: 18px;
 }
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.selected {
+    font-weight: bold;
+    margin-left: 100px;
+    )

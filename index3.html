@@ -23,22 +23,23 @@
     </header>
     <main role="main">
       <div class="quiz">
+        <button type="button" class="start">Restart?</button>
         <h2>Question: This is an example question.</h2>
-        <form>
+       <form>
             <fieldset>
-                <label class="answerOption">
+                <label class="answerOption selected incorrect">
                 <input type="radio" value="Example 1" name="answer" required>
-                <span>Example 1</span>
+                <span>Example 1</span><span> (Your seclection)</span>
                 </label>
-                <label class="answerOption">
+                <label class="answerOption correct">
                 <input type="radio" value="Example 2" name="answer" required>
-                <span>Example 2 </span>
+                <span>Example 2 </span><span> (Correct Answer)</span>
                 </label>
-                <label class="answerOption">
+                <label class="answerOption incorrect">
                 <input type="radio" value="Example 3" name="answer" required>                  
                 <span>Example 3</span>
                 </label>
-                <label class="answerOption">                     
+                <label class="answerOption incorrect">                     
                 <input type="radio" value="Example 4" name="answer" required>
                 <span>Example 4</span>
                 </label>
