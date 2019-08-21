@@ -68,7 +68,7 @@ h1 {
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 0;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 fieldset {
@@ -90,4 +90,9 @@ form button {
     margin-top: 10px;
     width: 100%;
     text-align: left;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
 }
