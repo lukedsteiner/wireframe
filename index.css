@@ -57,7 +57,7 @@ label:hover, label:focus {
 button:hover, button:focus {
     border: 8px solid #89c4f4;
 }
-.submitButton {
+.submitButton, .nextButton {
     text-align: center;
 }
 
@@ -86,6 +86,17 @@ h1 {
     text-transform: uppercase;
     border-radius: 0;
     margin-top: 20px;
+}
+
+.nextButton {
+    padding: 20px;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 fieldset {
