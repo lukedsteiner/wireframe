@@ -14,7 +14,7 @@
         <img src='https://images-na.ssl-images-amazon.com/images/I/51iMLO%2Bs3RL._SY355_.jpg' class='cure' alt='image of band logo'/>
         </a>
       </div>
-      <div class="score">
+      <div class="scoreboard">
         <ul>
           <li>Question: <span class="questionNumber">0</span>/10</li>
           <li>Score: <span class="score">0</span></li>
@@ -22,30 +22,13 @@
       </div>
     </header>
     <main role="main">
-      <div class="quiz">
-        <h2>Question: This is an example question.</h2>
-        <form>
-            <fieldset>
-                <label class="answerOption">
-                <input type="radio" value="Example 1" name="answer" required>
-                <span>Example 1</span>
-                </label>
-                <label class="answerOption">
-                <input type="radio" value="Example 2" name="answer" required>
-                <span>Example 2 </span>
-                </label>
-                <label class="answerOption">
-                <input type="radio" value="Example 3" name="answer" required>                  
-                <span>Example 3</span>
-                </label>
-                <label class="answerOption">                     
-                <input type="radio" value="Example 4" name="answer" required>
-                <span>Example 4</span>
-                </label>
-                <button type="submit" class="submitButton">Submit</button>
-            </fieldset>
-        </form>
+        <div class="quizStart">
+            <h1>Test your knowledge!</h1> 
+            <button type="button" class="startButton">Start</button>
         </div>
+        <div class="quizQuestions"></div>
     </main>
   </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
 </html>

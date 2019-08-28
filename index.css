@@ -1,5 +1,10 @@
 * {
     box-sizing: border-box;
+    color: #504f4f;
+}
+
+body {
+    background-color: #89c4f4;
 }
 
 img {
@@ -15,6 +20,7 @@ header {
     font-size: 20px;
     border-bottom: 5px solid black;
     position: relative;
+    background-color: white;
 }
 
 header ul li {
@@ -40,9 +46,20 @@ button {
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 0;
-    margin-top: 40px
+    margin-top: 40px;
+    background-color: #98fb98;
 }
 
+label:hover, label:focus {
+ border: 8px solid#98fb98;
+}
+
+button:hover, button:focus {
+    border: 8px solid #89c4f4;
+}
+.submitButton {
+    text-align: center;
+}
 
 label {
     padding: 20px;
@@ -58,7 +75,7 @@ h1 {
     text-transform: uppercase;
 }
 
-.start {
+.startButton {
     margin: -20px -50px; 
     position:relative;
     top:50%; 
@@ -99,6 +116,7 @@ p {
 
 .correct {
     color: green;
+    margin-left: 100px;
 }
 
 .incorrect {
@@ -108,4 +126,23 @@ p {
 .selected {
     font-weight: bold;
     margin-left: 100px;
-    )
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        position: static;
+        text-align: center;
+    }
+    
+    header ul {
+        text-align: center;
+    }
+
+    img {
+        position: static;
+    }
+
+
+    
+}
